@@ -1,0 +1,8 @@
+<h3>
+  Choose movie for details
+</h3>
+<div class="film" *ngFor="let movie of movies" routerLink='movie/{{movie.id}}'>
+
+    <img  alt="{{movie.title}}" src="assets/{{movie.pictureName}}.jpg" width="100" height="100">
+ 
+</div>
